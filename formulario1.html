@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="">
+        <lebel for="nombre">
+            <span>INGRESE SU NOMBRE COMPLETO:</span>
+            <input type="text" id="nombre" placeholder="Digite su nombre">
+        </lebel><br><br>
+        <lebel for="fecha-nacimiento">
+            <span>INGRESE SU FEHCA DE NACIMIENTO</span>
+            <input type="date" id="fecha" placeholder="Digite su fecha nacimiento">
+        </lebel><br><br>
+        <lebel for="fecha-nacimiento">
+            <span>INGRESE SU FEHCA DE NACIMIENTO</span>
+            <input type="date" id="fecha" placeholder="Digite su fecha nacimiento">
+        </lebel><br><br>
+        <lebel for="contrasña">
+            <span>INGRESE SU CONTRASEÑA</span>
+            <input type="password" id="contraseña" placeholder="Digite su contraseña">
+        </lebel><br><br>
+        <lebel for="mail">
+            <span>INGRESE SU EMAIL</span>
+            <input type="email" id="email" placeholder="Digite su correo">
+        </lebel>
+        <fieldset>
+            <legend>SELECCIONE EL PEREFIL</legend>
+            <div>
+                <input type="radio" id="frontend" name="perfil" value="frontend" checked>
+                <lebel for="frontend">FRONTEND</lebel>
+            </div>
+            <div>
+                <input type="radio" id="backend" name="perfil" value="backend" >
+                <lebel for="backend">BACKEND</lebel>
+            </div>
+            <div>
+                <input type="radio" id="fullstack" name="perfil" value="fullstack" >
+                <lebel for="fullstack">FRONTEND</lebel>
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar"><input type="submit" value="Borrar">
+    </form>
+</body>
+</html>
